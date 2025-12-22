@@ -2,16 +2,16 @@
 
 ## 📚 Table of Contents
 
-- [ℹ️ About the Project](#about-the-project) ---
-- [🧱 Built With](#built-with) ---
+- [ℹ️ About the Project](#about-the-project) 
+- [🧱 Built With](#built-with) 
 - [🚀 Introduction](#introduction)
-- [⚡ Quick Start](#quick-start) ---
-- [🧩 Usage](#usage) ---
-- [🔧 More Options](#more-options) ---
-- [🐞 Known Issues & Limitations](#known-issues--limitations) ---
-- [🆘 Getting Help](#getting-help) ---
-- [🤝 Contributing](#contributing)   ---contributing.md olacak
-- [📜 License](#license)   ---licence.md olacak
+- [⚡ Quick Start](#quick-start) 
+- [🧩 Usage](#usage) 
+- [🔧 More Options](#more-options) 
+- [🐞 Known Issues & Limitations](#known-issues--limitations) 
+- [🆘 Getting Help](#getting-help) 
+- [🤝 Contributing](#contributing)   
+- [📜 License](#license)   
 - [🙏 Acknowledgments](#acknowledgments)   --- silsek mi?
 
 
