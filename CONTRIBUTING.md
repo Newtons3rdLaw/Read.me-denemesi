@@ -1,6 +1,6 @@
-# Guidelines for contributing to this project 
-Any constructive contributions – bug reports, pull requests (code or documentation), suggestions for improvements, and more – are welcome.  
-## Coordinating work 
-A quick way to find out what is currently in the near-term plans for this project is to look at the GitHub issue tracker, but the possibilities are not limited to what you see there – if you have ideas for new features and enhancements, please feel free to write them up as a new issue or contact the developers directly!  
-## Submitting contributions 
-Please feel free to contact the author directly, or even better, jump right in and use the standard GitHub approach of forking the repo and creating a pull request. When committing code changes and submitting pull requests, please write a clear log message for your commits.
+# Bu projeye katkıda bulunmaya ilişkin yönergeler
+Her türlü yapıcı katkı – hata raporları, kod veya dokümantasyon içeren çekme istekleri, iyileştirme önerileri ve daha fazlası – memnuniyetle karşılanır.
+## Koordinasyon çalışmaları
+Bu proje için yakın vadeli planlarda neler olduğunu öğrenmenin hızlı bir yolu GitHub sorun takip sistemine bakmaktır, ancak olasılıklar orada gördüklerinizle sınırlı değildir – yeni özellikler ve geliştirmeler için fikirleriniz varsa, lütfen bunları yeni bir sorun olarak bildirin veya doğrudan geliştiricilerle iletişime geçin!
+## Katkı gönderme
+Yazarla doğrudan iletişime geçmekten çekinmeyin veya daha iyisi, doğrudan GitHub'ın standart yaklaşımını kullanarak depoyu çatallayın ve bir çekme isteği oluşturun. Kod değişikliklerini kaydederken ve çekme istekleri gönderirken, lütfen kayıtlarınız için açık bir günlük mesajı yazın.
