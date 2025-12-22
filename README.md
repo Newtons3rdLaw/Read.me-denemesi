@@ -26,80 +26,65 @@ Bu projede kullanılan başlıca teknolojiler:
 
 ### Backend
 
-[Laravel 12](https://pip.pypa.io/en/stable/)  (laravel/framework)
+[Laravel 12](https://laravel.com/)  (laravel/framework)
 ​
 
-[Laravel Fortify](https://pip.pypa.io/en/stable/)  (authentication)
+[Laravel Fortify](https://laravel.com/docs/12.x/fortify)  (authentication)
 ​
 
-[Laravel Sanctum](https://pip.pypa.io/en/stable/)  (API / token auth)
+[Laravel Sanctum](https://laravel.com/docs/12.x/sanctum)  (API / token auth)
 ​
 
-[Laravel Telescope](https://pip.pypa.io/en/stable/)  (debugging & monitoring)
+[Laravel Telescope](https://laravel.com/docs/12.x/telescope)  (debugging & monitoring)
 ​
 
-[Laravel Tinker](https://pip.pypa.io/en/stable/)  (artisan REPL)
+[Laravel Tinker](https://laravel.com/docs/12.x/artisan)  (artisan REPL)
 ​
 
-[Spatie Activitylog](https://pip.pypa.io/en/stable/)  (kullanıcı aksiyon loglama)
+[Spatie Activitylog](https://spatie.be/docs/laravel-activitylog/v4/introduction)  (kullanıcı aksiyon loglama)
 ​
 
-[Spatie Query Builder](https://pip.pypa.io/en/stable/)  (filtreleme / sıralama / include)
+[Spatie Query Builder](https://github.com/spatie/laravel-query-builder)  (filtreleme / sıralama / include)
 ​
 
-[Maatwebsite Excel](https://pip.pypa.io/en/stable/)  (Excel içe/dışa aktarma)
+[Maatwebsite Excel](https://packagist.org/packages/maatwebsite/excel)  (Excel içe/dışa aktarma)
 ​
 
-[TCPDF & FPDI](https://pip.pypa.io/en/stable/)  (PDF oluşturma / birleştirme)
+[TCPDF & FPDI]()  (PDF oluşturma / birleştirme)
 ​
 
-[Tighten Ziggy](https://pip.pypa.io/en/stable/)  (Laravel route’larını JS tarafında kullanma)
+[Tighten Ziggy](https://github.com/tighten/ziggy)  (Laravel route’larını JS tarafında kullanma)
 ​
 
 ### Frontend
 
-[Vite](https://pip.pypa.io/en/stable/)  (build tool)
+[Vite](https://vite.dev/)  (build tool)
 ​
 
-[Tailwind](https://pip.pypa.io/en/stable/)  CSS 4
+[Tailwind](https://tailwindcss.com/)  CSS 4
 ​
 
-[Alpine.js](https://pip.pypa.io/en/stable/)  (+ collapse, focus, persist eklentileri)
+[Alpine.js](https://alpinejs.dev/)  (+ collapse, focus, persist eklentileri)
 ​
 
-[FullCalendar](https://pip.pypa.io/en/stable/)  (takvim & event görselleştirme)
+[Flatpickr](https://flatpickr.js.org/) (tarih/saat picker)
+
+
+[Tabulator](https://tabulator.info/)  (tablo & grid)
 ​
 
-[ApexCharts](https://pip.pypa.io/en/stable/)  (grafikler)
-​
-
-[Dropzone](https://pip.pypa.io/en/stable/)  (dosya yükleme)
-​
-
-[Flatpickr](https://pip.pypa.io/en/stable/) (tarih/saat picker)
-
-
-[Tabulator](https://pip.pypa.io/en/stable/)  (tablo & grid)
-​
-
-[Konva](https://pip.pypa.io/en/stable/)  (canvas tabanlı görselleştirme)
-​
-
-[xlsx](https://pip.pypa.io/en/stable/)  (Excel okuma/yazma)
-​
-
-[Ziggy JS](https://pip.pypa.io/en/stable/)  (route helper)
-​
+[Konva](https://konvajs.org/)  (canvas tabanlı görselleştirme)
+​​​
 
 ### Veritabanı & Ortam
 
-[MySQL](https://pip.pypa.io/en/stable/)  (DB_CONNECTION=mysql, DB_PORT=3306)
+[MySQL](https://www.mysql.com/)  (DB_CONNECTION=mysql, DB_PORT=3306)
 ​
 
-[Laravel Herd](https://pip.pypa.io/en/stable/)  (local PHP/Laravel runtime, development environment)
+[Laravel Herd](https://herd.laravel.com/windows)  (local PHP/Laravel runtime, development environment)
 ​
 
-[DBngin](https://pip.pypa.io/en/stable/)  (lokal veritabanı yönetimi)
+[DBngin](https://dbngin.com/)  (lokal veritabanı yönetimi)
 ​​
 ### PHP & Laravel bağımlılıklarını yüklemek için, proje dizininde yalnızca 
 ```bash
