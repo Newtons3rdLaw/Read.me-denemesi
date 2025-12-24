@@ -4,7 +4,7 @@
 
 ## 📚 Table of Contents
 
-- [ℹ️ About the Project](#about-the-project) 
+- [ℹ️ About the Project](#ℹ️-about-the-project)
 - [🧱 Built With](#built-with) 
 - [🏗️ Architecture](#architecture)
 - [⚡ Quick Start](#quick-start) 
