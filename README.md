@@ -1,4 +1,5 @@
-# CR-None
+img
+# Reference Console
 
 ## 📚 Table of Contents
 
@@ -38,7 +39,9 @@ Bu projede kullanılan başlıca teknolojiler:
 [Laravel Telescope](https://laravel.com/docs/12.x/telescope)  (debugging & monitoring)
 ​
 
-[Laravel Tinker](https://laravel.com/docs/12.x/artisan)  (artisan REPL)
+[Laravel Queue](https://)  (artisan REPL)
+
+reverb
 ​
 
 [Spatie Activitylog](https://spatie.be/docs/laravel-activitylog/v4/introduction)  (kullanıcı aksiyon loglama)
@@ -57,6 +60,10 @@ Bu projede kullanılan başlıca teknolojiler:
 ​
 
 ### Frontend
+tema -> tailadmin
+
+echo (reverb)
+
 
 [Vite](https://vite.dev/)  (build tool)
 ​
