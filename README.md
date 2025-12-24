@@ -4,15 +4,17 @@
 
 ## 📚 Table of Contents
 
-- [ℹ️ About the Project](#ℹ️-about-the-project)
-- [🧱 Built With](#built-with) 
-- [🏗️ Architecture](#architecture)
-- [⚡ Quick Start](#quick-start) 
-- [🧩 Usage](#usage) 
-- [🔧 More Options](#more-options) 
-- [🐞 Known Issues & Limitations](#known-issues--limitations) 
-- [🆘 Getting Help](#getting-help) 
-- [📜 License](#license)   
+- [ℹ️ About the Project](#ℹ️-about-the-project) 
+- [🧱 Built With](#🧱-built-with) 
+- [🏗️ Architecture](#🏗️-architecture)
+- [⚡ Quick Start](#⚡-quick-start) 
+- [🧩 Usage](#🧩-usage) 
+- [🔧 More Options](#🔧-more-options) 
+- [🐞 Known Issues & Limitations](#🐞-known-issues--limitations) 
+- [🆘 Getting Help](#🆘-getting-help) 
+- [📜 License](#📜-license)   
+
+
 
 
 ## ℹ️ About the Project
