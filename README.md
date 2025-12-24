@@ -1,19 +1,18 @@
-img
+<img width="315" height="118" alt="image" src="https://github.com/user-attachments/assets/fbabeb10-b258-4e25-b205-f785551db8db" />
+
 # Reference Console
 
 ## 📚 Table of Contents
 
-- [ℹ️ About the Project](#about-the-project) 
-- [🧱 Built With](#built-with) 
-- [🚀 Introduction](#introduction)
-- [⚡ Quick Start](#quick-start) 
-- [🧩 Usage](#usage) 
-- [🔧 More Options](#more-options) 
-- [🐞 Known Issues & Limitations](#known-issues--limitations) 
-- [🆘 Getting Help](#getting-help) 
-- [🤝 Contributing](#contributing)   
-- [📜 License](#license)   
-- [🙏 Acknowledgments](#acknowledgments)   --- silsek mi?
+- [ℹ️ About the Project](#ℹ️-about-the-project) 
+- [🧱 Built With](#🧱-built-with) 
+- [🏗️ Architecture](#🏗️-architecture)
+- [⚡ Quick Start](#⚡-quick-start) 
+- [🧩 Usage](#🧩-usage) 
+- [🔧 More Options](#🔧-more-options) 
+- [🐞 Known Issues & Limitations](#🐞-known-issues--limitations) 
+- [🆘 Getting Help](#🆘-getting-help) 
+- [📜 License](#📜-license)   
 
 
 ## ℹ️ About the Project
@@ -39,9 +38,10 @@ Bu projede kullanılan başlıca teknolojiler:
 [Laravel Telescope](https://laravel.com/docs/12.x/telescope)  (debugging & monitoring)
 ​
 
-[Laravel Queue](https://)  (artisan REPL)
+[Laravel Queue](https://laravel.com/docs/12.x/queues)  (Background Jobs)
 
-reverb
+
+[Laravel Reverb](https://laravel.com/docs/12.x/reverb#main-content)  (WebSocket Server)
 ​
 
 [Spatie Activitylog](https://spatie.be/docs/laravel-activitylog/v4/introduction)  (kullanıcı aksiyon loglama)
@@ -60,9 +60,10 @@ reverb
 ​
 
 ### Frontend
-tema -> tailadmin
+[TailAdmin](https://tailadmin.com/)  (Theme)
 
-echo (reverb)
+
+[Laravel Echo](https://laravel.com/docs/12.x/broadcasting)  (JS Listener)
 
 
 [Vite](https://vite.dev/)  (build tool)
@@ -105,14 +106,17 @@ npm install
 ```
 komutunu çalıştırmanız yeterlidir; gerekli paketler package.json içindeki dependencies ve devDependencies bölümlerinde listelenmiştir.
 
+### JavaScript asset'lerini derlemek için, proje dizininde
+```bash
+npm run dev
+```
+komutunu çalıştırmanız yeterlidir; geliştirme ortamında asset'ler derlenir ve güncellenir.
 
-## 🚀 Introduction
-Bu proje, dağıtım organizasyonlarını Excel tabanlı kişi listeleri üzerinden uçtan uca yönetebilmek için geliştirilmiş, kurum içi kullanıma yönelik bir yönetim panelidir.
-​
-Amaç; farklı kaynak ve kapasite kısıtları altında, çok sayıda hak sahibini adil ve izlenebilir şekilde gruplandırmak, her bir kişi için standart bir çıktı üretmek ve tüm süreci daha az manuel iş yüküyle yürütmektir.
-​
-
-Genel olarak dağınık Excel dosyaları ve manuel hesaplamalarla yapılan planlama süreci; bu uygulama sayesinde tek bir arayüzde toplanır, tekrar kullanılabilir şablonlar ve otomatik gruplama kurallarıyla daha tutarlı ve denetlenebilir hale gelir.
+## 🏗️ Architecture
+CQRS + Vertical Slice Architecture
+```bash
+Controller → Request → Action(Command/Query) → Model
+```
 
 ## ⚡ Quick Start
 1- Depoyu klonla ve dizine gir:
@@ -151,7 +155,7 @@ php artisan migrate --seed
 7- Geliştirme sunucusunu ve asset derleyicisini başlat:
 ```bash
 php artisan serve
-npm run dev
+npm run build
 ```
 
 ## 🧩 Usage
@@ -174,12 +178,11 @@ Farklı destekçi kuruluşlar, kapasiteler veya dağıtım modelleri için birde
 #### Esnek gruplama kuralları: 
 Grup boyutları ve paylaşım mantığı yapılandırılabilir; böylece aynı altyapı, farklı senaryolara uyarlanabilir ve kod değişikliği gerektirmez.
 
-📝 Tunahan’ın eksik gördüğü veya daha ayrıntılı anlatılmasını önerdiği her şeyi burada topla.
 
 ## 🐞 Known Issues & Limitations
 Şu anda bu projeyle ilgili bilinen bir hata veya kısıtlama bulunmamaktadır.
 Herhangi bir sorunla karşılaşırsanız, lütfen bir issue açarak veya katkıda bulunarak geri bildirim sağlamaktan çekinmeyin.
-(Max yuklenebilen excel var mi? Belli bir noktadan sonra kasma yada calismama oluyor mu arastir.)
+
 
 ## 🆘 Getting Help
 Projeyi kullanırken yardıma ihtiyaç duyarsanız aşağıdaki kişilerle iletişime geçebilirsiniz:
@@ -193,47 +196,13 @@ Projeyi kullanırken yardıma ihtiyaç duyarsanız aşağıdaki kişilerle ileti
 ​
 
 👨‍💻 Tunahan Öztürk – 
-@
+@tnhnOzturk-0
+
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 
 Geri bildirim, hata raporu veya katkı önerileriniz için GitHub üzerinden issue açabilir veya doğrudan bu profiller üzerinden ulaşabilirsiniz.
 
-## 🤝 Contributing
-Katkıda bulunmak istersen adımlar genelde şöyledir:
-​
 
-Depoyu fork et.
-
-Yeni bir branch oluştur: feature/my-feature.
-
-Değişikliklerini commit et.
-
-Pull Request aç.
-
-Eğer bir CONTRIBUTING.md dosyan varsa, detaylı rehber için buraya link ekle:
-
-📄 Detaylı katkı rehberi için bkz: CONTRIBUTING.md
-
-Örnek bir katkı rehberi için:
-https://github.com/mhucka/readmine/blob/main/CONTRIBUTING.md
-​
-
-## 📜 License
-Bu projede hangi lisansın kullanıldığını burada belirt:
-​
-
-Örneğin: “Bu proje MIT lisansı ile lisanslanmıştır. Ayrıntılar için LICENSE dosyasına bakınız.”
-
-Lisans metnini repo köküne LICENSE dosyası olarak eklemeyi unutma.
-
-## 🙏 Acknowledgments
-Bu bölümde projeye doğrudan veya dolaylı katkısı olan kişi ve projelere teşekkür edebilirsin:
-​
-
-İlham alınan projeler.
-
-Kullandığın önemli açık kaynak kütüphaneler.
-
-AfroTech ekibi veya bireysel katkı sağlayan arkadaşların.
-
-💐 Örnek: “Bu proje, X projesinden ilham alınarak geliştirilmiştir.” veya “Y kütüphanesinin geliştiricilerine teşekkürler.”
