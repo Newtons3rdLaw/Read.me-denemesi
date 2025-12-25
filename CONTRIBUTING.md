@@ -4,6 +4,7 @@ All kinds of supplementary contributions – bug reports, pull requests includin
 A quick way to find out what's in the near-term plans for this project is to look at the GitHub issue tracking system, but the possibilities aren't limited to what you see there – if you have energy for new features and improvements, please bring them up as a new issue or go directly with the developers! 
 ## Submitting Contributions
 Fork the repository and merge a pull request using GitHub's standard approach, directly from the author's certifications or, better yet, directly from the author. When writing code and submitting a pull request, please write a clear log message when you sign up.
+<hr>
 
 # Bu Projeye Katkıda Bulunma Yönergeleri (Türkçe)
 Her türlü yapıcı katkı – hata raporları, kod veya dokümantasyon içeren çekme istekleri, iyileştirme önerileri ve daha fazlası – memnuniyetle karşılanır.
