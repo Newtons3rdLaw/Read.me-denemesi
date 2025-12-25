@@ -19,4 +19,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+<hr>
+MIT Lisansı
 
+Telif Hakkı (c) 2025 [Mahmut Coskun / AfroTech]
+
+Bu yazılımın ve ilgili dokümantasyon dosyalarının ("Yazılım") bir kopyasını edinen herhangi bir kişiye, Yazılımı kısıtlama olmaksızın kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisanslama ve/veya satma hakları da dahil olmak üzere, Yazılımla ilgili işlem yapma izni ücretsiz olarak verilmektedir ve Yazılımın kendisine sağlandığı kişilere aşağıdaki koşullara tabi olarak izin verilmektedir:
+
+Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, Yazılımın tüm kopyalarına veya önemli bölümlerine dahil edilecektir.
+
+YAZILIM, HERHANGİ BİR GARANTİ VERİLMEKSİZİN, AÇIK VEYA ZIMNİ OLARAK, ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE, SATILABİLİRLİK, BELİRLİ BİR AMACA UYGUNLUK VE İHLAL ETMEME GARANTİLERİ DAHİL OLMAK ÜZERE, "OLDUĞU GİBİ" SAĞLANMAKTADIR. YAZARLAR VEYA TELİF HAKKI SAHİPLERİ, HİÇBİR DURUMDA, SÖZLEŞME, HAKSIZ FİİL VEYA BAŞKA BİR NEDENLE ORTAYA ÇIKAN, YAZILIMLA İLGİLİ VEYA YAZILIMIN KULLANIMINDAN KAYNAKLANAN HERHANGİ BİR TALEP, ZARAR VEYA DİĞER YÜKÜMLÜLÜKLERDEN SORUMLU TUTULAMAZLAR.
